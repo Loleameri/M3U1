@@ -24,7 +24,6 @@ header nav {
     font-size: 20px;
     display: inline-block;
     position: relative;
-    bottom: 40px;
     margin-left: 20px;
 }
 
@@ -56,20 +55,38 @@ header nav ul li a:hover {
 }
 
 main {
+    top: 30px;
+    width: 700px;
     position: relative;
-    }
+    margin-left: 30%;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+}
+
+main h4 {
+    display: flex;
+    justify-content: center;
+}
 
 .view-first img {
     transition: all 0.2s linear;
-   
+
+}
+
+.view-first {
+    display: flex;
+    justify-content: center;
 }
 
 .view-first .mask {
     filter: alpha(opacity=0);
     opacity: 0;
-    background-color: rgba(219, 127, 8, 0.7);
+    background-color: rgba(192, 49, 49, 0.555);
     transition: all 0.4s ease-in-out;
-    }
+}
 
 .view-first h2 {
 
@@ -173,9 +190,7 @@ main {
 }
 
 .view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
+    font-size: 18px;
     position: relative;
     color: #fff;
     padding: 10px 20px 20px;
@@ -192,10 +207,4 @@ main {
     -webkit-box-shadow: 0 0 1px #000;
     -moz-box-shadow: 0 0 1px #000;
     box-shadow: 0 0 1px #000;
-}
-
-.view a.info: hover {
-    -webkit-box-shadow: 0 0 5px #000;
-    -moz-box-shadow: 0 0 5px #000;
-    box-shadow: 0 0 5px #000;
 }
